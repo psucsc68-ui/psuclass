@@ -1,0 +1,54 @@
+/* ============================================
+   ClassMuse — Design Tokens (Minimal)
+   ============================================ */
+
+:root {
+  /* Colors — Clean minimal palette */
+  --color-bg: #0f0f13;
+  --color-surface: #18181f;
+  --color-surface-2: #1e1e27;
+  --color-surface-3: #252530;
+  --color-border: rgba(255,255,255,0.06);
+  --color-border-hover: rgba(255,255,255,0.12);
+
+  --color-text: #f0f0f5;
+  --color-text-secondary: #9898a8;
+  --color-text-tertiary: #5c5c6e;
+
+  --color-primary: #6366f1;
+  --color-primary-light: #818cf8;
+  --color-primary-bg: rgba(99,102,241,0.08);
+  --color-secondary: #a78bfa;
+  --color-secondary-light: #c4b5fd;
+  --color-accent: #818cf8;
+  --color-accent-bg: rgba(129,140,248,0.08);
+
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+
+  /* Glass — Subtle */
+  --glass-bg: rgba(255,255,255,0.03);
+  --glass-border: rgba(255,255,255,0.06);
+  --glass-shadow: 0 1px 3px rgba(0,0,0,0.3);
+
+  /* Spacing */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
+
+  /* Typography */
+  --font-sans: 'Inter', 'Noto Sans Thai', system-ui, -apple-system, sans-serif;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-base: 1rem;
+  --text-lg: 1.125rem; --text-xl: 1.25rem; --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem; --text-4xl: 2.25rem; --text-5xl: 3rem;
+
+  /* Radius — Softer */
+  --radius-sm: 6px; --radius-md: 8px; --radius-lg: 12px;
+  --radius-xl: 16px; --radius-2xl: 20px; --radius-full: 9999px;
+
+  /* Gradients — Subtle */
+  --gradient-primary: linear-gradient(135deg, #6366f1, #818cf8);
+  --gradient-secondary: linear-gradient(135deg, #a78bfa, #c4b5fd);
+  --gradient-accent: linear-gradient(135deg, #6366f1, #a78bfa);
+}
